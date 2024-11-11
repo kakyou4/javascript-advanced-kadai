@@ -93,6 +93,7 @@ const rankCheck = score => {
 const gameOver = id => {
 
   clearInterval(id);
+    typedfield.textContent = '';
     untypedfield.textContent = "タイムアップ！";
 
     // 10ms後にリザルトを表示
